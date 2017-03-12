@@ -1,0 +1,38 @@
+<server_config>
+	<!-- For Tomcat Webapps Configuration //-->
+	<WebappsLocation>webapps/WebBasedChessGameDesigner/</WebappsLocation>
+	
+	<!-- For XML Validation //-->
+	<SpecificationStorageLocation>repository/</SpecificationStorageLocation>
+	<SpecificationSchemaFileLocation>configuration/</SpecificationSchemaFileLocation>
+	<SpecificationSchemaFileName>wbcgdp_specification.xsd</SpecificationSchemaFileName>
+	<CommandSchemaFileLocation>configuration/</CommandSchemaFileLocation>
+	<CommandSchemaFileName>wbcgdp_command.xsd</CommandSchemaFileName>
+	
+	<!-- For Dynamic Rule Class Loader //-->
+	<RuleMapperSchemaFileLocation>configuration/</RuleMapperSchemaFileLocation>
+	<RuleMapperSchemaFileName>mapping.xsd</RuleMapperSchemaFileName>
+	<RuleMapperFileLocation>configuration/</RuleMapperFileLocation>
+	<RuleMapperFileName>mapping.xml</RuleMapperFileName>
+	<RuleMapperActionPackage>webBaseChessGameDesigner.framework.actions</RuleMapperActionPackage>
+	<RuleMapperConditionPackage>webBaseChessGameDesigner.framework.conditions</RuleMapperConditionPackage>
+	
+	<!-- For Database Connection //-->
+	<DatabaseLocation>127.0.0.1</DatabaseLocation>
+	<DatabaseName>wbcgd</DatabaseName>
+	<DatabaseAccount>root</DatabaseAccount>
+	<DatabasePassword>subai</DatabasePassword>		
+	
+	<!-- For Command Handlers Mapping //-->
+	<HandlerMappingSchemaPath>configuration/</HandlerMappingSchemaPath>
+	<HandlerMappingSchemaFile>mapping.xsd</HandlerMappingSchemaFile>
+	<HandlerMappingFileLocation>configuration/</HandlerMappingFileLocation>
+	<HandlerMappingFileName>mapping.xml</HandlerMappingFileName>
+	<HandlerMappingPackage>webBaseChessGameDesigner.framework.actions</HandlerMappingPackage>
+	
+	<!-- Game Server Setting //-->
+	<Timeout>5</Timeout>
+	<ServerPort>3333</ServerPort>
+	<InitConnectionID>0</InitConnectionID>
+	<InitGameID>0</InitGameID>
+</server_config>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:DeploymentDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="deployment" metadata="uml2-1.0" initialized="true" tag="1000" key="32303036313030362046524F47532F466572727920546F">
+  <children xsi:type="editmodel:NodeEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.3/@sourceConnections.0 //@children.1/@sourceConnections.1" location="190,254" size="157,98" stereotype="" taggedValues="{profile.object.name=Patch Server}" itemName="Patch Server" type="" instanceLevel="true">
+    <children xsi:type="editmodel:ComponentEditModel" location="10,48" size="111,41" stereotype="" taggedValues="{profile.object.name=Patch Servlet}" itemName="Patch Servlet"/>
+    <sourceConnections xsi:type="editmodel:NodeAssociationEditModel" stereotype="HTTP" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.0/@children.1" label="//@children.0/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual" sourceMultiplicity="" targetMultiplicity="" sourceRole="new feature files" targetRole="">
+      <children xsi:type="editmodel:ComponentEndEditModel" location="31,98" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.0/@children.0/@children.0" roleLabel="//@children.0/@sourceConnections.0/@children.0/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="214,359" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="new feature files" location="130,360" size="83,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-6.0" distanceFromWire="-50.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:ComponentEndEditModel" location="38,0" multiplicityLabel="//@children.0/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.0/@children.1/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="214,373" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" location="228,373" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" name="«HTTP»" location="170,381" size="37,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="15.0" distanceFromWire="-33.0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:NodeAssociationEditModel" stereotype="HTTP" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.1/@children.1" label="//@children.0/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@sourceConnections.1/@children.0" connectionRouterKind="Manual" sourceMultiplicity="" targetMultiplicity="" sourceRole="new feature files" targetRole="">
+      <children xsi:type="editmodel:ComponentEndEditModel" location="97,0" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.1/@children.0/@children.0" roleLabel="//@children.0/@sourceConnections.1/@children.0/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="280,233" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="new feature files" location="300,190" size="83,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="22.0" distanceFromWire="-54.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:ComponentEndEditModel" location="104,114" multiplicityLabel="//@children.0/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.1/@children.1/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="280,191" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" location="294,191" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" name="«HTTP»" size="37,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:NodeAssociationEditModel" stereotype="JDBC" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.2/@children.1" label="//@children.0/@sourceConnections.2/@children.2" sourceEnd="//@children.0/@sourceConnections.2/@children.0" connectionRouterKind="Manual" sourceMultiplicity="" targetMultiplicity="" sourceRole="Authenticate Server Instance" targetRole="">
+      <children xsi:type="editmodel:ComponentEndEditModel" location="157,67" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.2/@children.0/@children.0" roleLabel="//@children.0/@sourceConnections.2/@children.0/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="354,328" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="Authenticate Server Instance" location="357,306" size="141,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="4.0" distanceFromWire="8.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:ComponentEndEditModel" location="0,81" multiplicityLabel="//@children.0/@sourceConnections.2/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.2/@children.1/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="493,300" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" location="493,328" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" name="«JDBC»" location="413,325" size="38,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="9.15507212969026" distanceFromWire="-11.882114891725658" anchorKind="MiddlePart"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:NodeEditModel" targetConnections="//@children.0/@sourceConnections.2 //@children.2/@sourceConnections.1" location="500,240" size="151,101" stereotype="" taggedValues="{profile.object.name=Database Server}" itemName="Database Server" type="" instanceLevel="true">
+    <children xsi:type="editmodel:ComponentEditModel" location="16,46" size="93,35" stereotype="" taggedValues="{profile.object.name=MySQL DB}" itemName="MySQL DB"/>
+    <sourceConnections xsi:type="editmodel:NodeAssociationEditModel" stereotype="JDBC" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.0/@children.1" label="//@children.1/@sourceConnections.0/@children.2" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan" sourceMultiplicity="" targetMultiplicity="" sourceRole="Authentication Results" targetRole="">
+      <children xsi:type="editmodel:ComponentEndEditModel" location="91,99" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.0/@children.0/@children.0" roleLabel="//@children.1/@sourceConnections.0/@children.0/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="584,348" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="Authentication Results" location="470,460" size="108,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="60.00000000000001" distanceFromWire="-67.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:ComponentEndEditModel" location="164,79" multiplicityLabel="//@children.1/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.1/@sourceConnections.0/@children.1/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="354,452" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" location="354,480" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" name="«JDBC»" location="510,481" size="38,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="81.0" distanceFromWire="-62.0" anchorKind="MiddlePart"/>
+      <bendpoints secondRelativeDimension="204,-1" firstRelativeDimension="-7,144"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:NodeAssociationEditModel" stereotype="JDBC" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.1/@children.1" label="//@children.1/@sourceConnections.1/@children.2" sourceEnd="//@children.1/@sourceConnections.1/@children.0" connectionRouterKind="Manual" sourceMultiplicity="" targetMultiplicity="" sourceRole="Authentication Results" targetRole="">
+      <children xsi:type="editmodel:ComponentEndEditModel" location="0,32" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.1/@children.0/@children.0" roleLabel="//@children.1/@sourceConnections.1/@children.0/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="493,279" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="Authentication Results" location="372,257" size="108,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-3.0" distanceFromWire="-7.000000000000001" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:ComponentEndEditModel" location="157,18" multiplicityLabel="//@children.1/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.1/@sourceConnections.1/@children.1/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="354,251" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" location="354,279" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" name="«JDBC»" location="412,277" size="38,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-8.0" distanceFromWire="12.999999999999998" anchorKind="MiddlePart"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:NodeEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.1/@sourceConnections.0" location="183,394" size="164,101" stereotype="" taggedValues="{profile.object.name=FROGS Node}" itemName="FROGS Node" type="" instanceLevel="true">
+    <children xsi:type="editmodel:ComponentEditModel" location="13,48" size="112,40" stereotype="" taggedValues="{profile.object.name=FROGS Instance}" itemName="FROGS Instance"/>
+    <sourceConnections xsi:type="editmodel:NodeAssociationEditModel" stereotype="HTTP" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" label="//@children.2/@sourceConnections.0/@children.2" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual" sourceMultiplicity="" targetMultiplicity="" sourceRole="Instance Information" targetRole="">
+      <children xsi:type="editmodel:ComponentEndEditModel" location="129,0" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.0/@children.0/@children.0" roleLabel="//@children.2/@sourceConnections.0/@children.0/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="305,373" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="Instance Information" location="320,359" size="97,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="6.000000000000001" distanceFromWire="-56.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:ComponentEndEditModel" location="122,98" multiplicityLabel="//@children.2/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.2/@sourceConnections.0/@children.1/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="305,359" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" location="319,359" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" name="«HTTP»" location="320,380" size="37,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-14.0" distanceFromWire="-26.0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:NodeAssociationEditModel" stereotype="JDBC" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.1/@children.1" label="//@children.2/@sourceConnections.1/@children.2" sourceEnd="//@children.2/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan" sourceMultiplicity="" targetMultiplicity="" sourceRole="User Authentication Request" targetRole="">
+      <children xsi:type="editmodel:ComponentEndEditModel" location="164,35" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.1/@children.0/@children.0" roleLabel="//@children.2/@sourceConnections.1/@children.0/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="354,408" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="User Authentication Request" location="370,410" size="138,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-9.999999999999998" distanceFromWire="12.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:ComponentEndEditModel" location="52,101" multiplicityLabel="//@children.2/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.2/@sourceConnections.1/@children.1/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="545,348" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" location="559,348" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" name="«JDBC»" location="430,430" size="38,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" distanceFromWire="-8.0" anchorKind="MiddlePart"/>
+      <bendpoints secondRelativeDimension="-1,80" firstRelativeDimension="178,3"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:NodeEditModel" targetConnections="//@children.0/@sourceConnections.1 //@children.4/@sourceConnections.0" location="183,70" size="153,114" stereotype="" taggedValues="{profile.object.name=FROGS Node}" itemName="FROGS Node" type="" instanceLevel="true">
+    <children xsi:type="editmodel:ComponentEditModel" location="4,45" size="109,31" stereotype="" taggedValues="{profile.object.name=FROGS Instance}" itemName="FROGS Instance"/>
+    <sourceConnections xsi:type="editmodel:NodeAssociationEditModel" stereotype="HTTP" source="//@children.3" target="//@children.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" label="//@children.3/@sourceConnections.0/@children.2" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual" sourceMultiplicity="" targetMultiplicity="" sourceRole="Instance Information" targetRole="">
+      <children xsi:type="editmodel:ComponentEndEditModel" location="47,114" attachSource="true" multiplicityLabel="//@children.3/@sourceConnections.0/@children.0/@children.0" roleLabel="//@children.3/@sourceConnections.0/@children.0/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="223,191" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="Instance Information" location="121,197" size="97,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-14.000000000000002" distanceFromWire="-60.99999999999999" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:ComponentEndEditModel" location="40,0" multiplicityLabel="//@children.3/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.3/@sourceConnections.0/@children.1/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="223,233" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" location="237,233" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" name="«HTTP»" location="187,218" size="37,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="6.0" distanceFromWire="-25.0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:NodeAssociationEditModel" stereotype="JDBC" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.1/@children.1" label="//@children.3/@sourceConnections.1/@children.2" sourceEnd="//@children.3/@sourceConnections.1/@children.0" connectionRouterKind="Manual" sourceMultiplicity="" targetMultiplicity="" sourceRole="User Authentication Request" targetRole="">
+      <children xsi:type="editmodel:ComponentEndEditModel" location="153,27" attachSource="true" multiplicityLabel="//@children.3/@sourceConnections.1/@children.0/@children.0" roleLabel="//@children.3/@sourceConnections.1/@children.0/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="343,104" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="User Authentication Request" location="343,76" size="138,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:ComponentEndEditModel" location="0,27" multiplicityLabel="//@children.3/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.3/@sourceConnections.1/@children.1/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="478,76" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" location="478,104" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" name="«JDBC»" location="392,97" size="38,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="1.0" distanceFromWire="-7.000000000000001" anchorKind="MiddlePart"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:NodeEditModel" targetConnections="//@children.3/@sourceConnections.1" location="485,70" size="141,86" stereotype="" taggedValues="{profile.object.name=Database Server}" itemName="Database Server" type="" instanceLevel="true">
+    <children xsi:type="editmodel:ComponentEditModel" location="10,41" size="96,35" stereotype="" taggedValues="{profile.object.name=MySQL DB}" itemName="MySQL DB"/>
+    <sourceConnections xsi:type="editmodel:NodeAssociationEditModel" stereotype="JDBC" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.0/@children.1" label="//@children.4/@sourceConnections.0/@children.2" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manual" sourceMultiplicity="" targetMultiplicity="" sourceRole="Authentication Results" targetRole="">
+      <children xsi:type="editmodel:ComponentEndEditModel" location="0,70" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.0/@children.0/@children.0" roleLabel="//@children.4/@sourceConnections.0/@children.0/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="478,147" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="Authentication Results" location="370,119" size="108,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:ComponentEndEditModel" location="153,70" multiplicityLabel="//@children.4/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.4/@sourceConnections.0/@children.1/@children.1">
+        <children xsi:type="editmodel:LabelEditModel" location="343,119" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" location="343,147" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" name="«JDBC»" location="400,142" size="38,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-9.0" distanceFromWire="9.0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+  </children>
+  <diagramOptions xsi:type="options:DeploymentDiagramOptions" level="0" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+</editmodel:DeploymentDiagramEditModel>
